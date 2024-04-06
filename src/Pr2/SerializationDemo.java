@@ -1,5 +1,3 @@
-
-
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
@@ -10,7 +8,7 @@ public class SerializationDemo {
              ObjectInputStream ois = new ObjectInputStream(fis)) {
             deserializedResult = (CalculationResult) ois.readObject();
             CalculationResultRenderer renderer = new TextResultRenderer();
-            System.out.println(renderer.render(deserializedResult));
+            System.out.println(renderer.render(deserializedResult, 0));
         } catch (Exception e) {
             e.printStackTrace();
         }
