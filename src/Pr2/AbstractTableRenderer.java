@@ -1,0 +1,5 @@
+
+
+public abstract class AbstractTableRenderer implements CalculationResultRenderer {
+    public abstract String renderTable(CalculationResult result);
+}
