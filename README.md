@@ -208,7 +208,7 @@ public class Test {
 
 ### Ось результат ↓
 
-![Результат](/screenshot/image.png)
+![Результат](/screenshot/Pr4.png)
 
 
 
